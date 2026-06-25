@@ -1,3 +1,5 @@
+using CheckoutSystem.Application.Common;
+using CheckoutSystem.Infrastructure.Messaging;
 using CheckoutSystem.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -40,6 +42,8 @@ builder.Services.AddAuthentication(options =>
     });
 
 builder.Services.AddAuthorization();
+
+builder.Services.AddScoped<IEventPublisher, KafkaEventPublisher>();
 
 var app = builder.Build();
 
