@@ -1,9 +1,9 @@
-﻿using CheckoutSystem.Domaon.Events;
-using CheckoutSystem.Domaon.Primitives;
-using CheckoutSystem.Domaon.ValueObjects;
+﻿using CheckoutSystem.Domain.Primitives;
+using CheckoutSystem.Domain.ValueObjects;
+using CheckoutSystem.Domain.Events;
 using System.Numerics;
 
-namespace CheckoutSystem.Domaon.Entities
+namespace CheckoutSystem.Domain.Entities
 {
     public enum CheckoutStatus
     {

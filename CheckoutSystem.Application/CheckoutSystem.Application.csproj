@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CheckoutSystem.Domaon\CheckoutSystem.Domaon.csproj" />
+    <ProjectReference Include="..\CheckoutSystem.Domain\CheckoutSystem.Domain.csproj" />
   </ItemGroup>
 
 </Project>
