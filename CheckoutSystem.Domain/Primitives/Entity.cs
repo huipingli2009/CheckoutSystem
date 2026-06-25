@@ -1,4 +1,4 @@
-﻿namespace CheckoutSystem.Domaon.Primitives
+﻿namespace CheckoutSystem.Domain.Primitives
 {
     public abstract class Entity
     {

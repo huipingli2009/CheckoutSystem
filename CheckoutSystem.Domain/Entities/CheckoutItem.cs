@@ -1,10 +1,10 @@
-﻿using CheckoutSystem.Domaon.Primitives;
-using CheckoutSystem.Domaon.ValueObjects;
+﻿using CheckoutSystem.Domain.Primitives;
+using CheckoutSystem.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CheckoutSystem.Domaon.Entities
+namespace CheckoutSystem.Domain.Entities
 {
     public class CheckoutItem : Entity
     {

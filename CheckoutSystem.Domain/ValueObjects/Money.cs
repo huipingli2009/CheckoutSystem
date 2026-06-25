@@ -1,9 +1,9 @@
-﻿using CheckoutSystem.Domaon.Primitives;
+﻿using CheckoutSystem.Domain.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CheckoutSystem.Domaon.ValueObjects
+namespace CheckoutSystem.Domain.ValueObjects
 {
     public class Money : ValueObject
     {

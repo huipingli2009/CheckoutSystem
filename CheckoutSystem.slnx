@@ -4,7 +4,7 @@
     <File Path="docker-compose.yml" />
   </Folder>
   <Project Path="CheckoutSystem.Application/CheckoutSystem.Application.csproj" />
-  <Project Path="CheckoutSystem.Domaon/CheckoutSystem.Domaon.csproj" />
+  <Project Path="CheckoutSystem.Domain/CheckoutSystem.Domain.csproj" />
   <Project Path="CheckoutSystem.Infrastructure/CheckoutSystem.Infrastructure.csproj" />
   <Project Path="CheckoutSystem.WebApi/CheckoutSystem.WebApi.csproj" />
 </Solution>

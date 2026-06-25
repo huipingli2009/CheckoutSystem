@@ -1,9 +1,9 @@
-﻿using CheckoutSystem.Domaon.Primitives;
+﻿using CheckoutSystem.Domain.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CheckoutSystem.Domaon.Events
+namespace CheckoutSystem.Domain.Events
 {
     public record CheckoutCompletedDomainEvent(
         Guid EventId,
